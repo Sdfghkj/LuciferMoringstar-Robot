@@ -30,9 +30,9 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ```
 ### Credits
 
-Thanks To [LuciferMoringstar-Robot](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot) [Orginal Code](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot)
-Thanks To [Muhammed](https://github.com/PR0FESS0R-99)
-Thanks To [Developers](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot#credits)
+Thanks To [LuciferMoringstar-Robot](https://github.com/Sdfghkj/LuciferMoringstar-Robot) [Orginal Code](https://github.com/Sdfghkj/LuciferMoringstar-Robot)
+Thanks To [Muhammed](https://github.com/Sdfghkj)
+Thanks To [Developers](https://github.com/Sdfghkj/LuciferMoringstar-Robot#credits)
 ```
 
 ----
