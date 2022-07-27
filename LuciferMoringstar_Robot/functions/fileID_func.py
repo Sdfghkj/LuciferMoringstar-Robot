@@ -20,9 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Telegram Link :https://t.me/at3botsupport
+# Repo Link : https://github.com/Sdfghkj/LuciferMoringstar-Robot
+# License Link : https://github.com/Sdfghkj/LuciferMoringstar-Robotblob/LuciferMoringstar-Robot/LICENSE
 
 from pyrogram.types import Message
 
