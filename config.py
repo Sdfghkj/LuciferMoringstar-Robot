@@ -12,8 +12,8 @@ def is_enabled(value, default):
 
 
 # Creator
-CREATOR_NAME = os.environ.get("CREATOR_NAME", "𝙼𝚄𝙷𝙰𝙼𝙼𝙴𝙳")
-CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "PR0FESS0_99")
+CREATOR_NAME = os.environ.get("CREATOR_NAME", "AFSU")
+CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "AFxSU")
 
 # Account
 API_HASH = os.environ.get("API_HASH", "5b1d0992294a67cb54512a4fafeb0c88")
