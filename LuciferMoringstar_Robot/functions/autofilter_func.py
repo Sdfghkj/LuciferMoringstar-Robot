@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
+# Telegram Link : https://t.me/at3botsupport
 # Repo Link : https://github.com/Sdfghkj/LuciferMoringstar-Robot
 # License Link : https://github.com/Sdfghkj/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
