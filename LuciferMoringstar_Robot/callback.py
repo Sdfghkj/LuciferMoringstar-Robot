@@ -55,7 +55,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("അളിയാ  ലേശം പഴയകിയിട്ടൂണ്ട് വീണ്ടും ശ്രമിക്കാം🙊",show_alert=True)
                 return
 
             if int(index) == int(data["total"]) - 2:
@@ -91,7 +91,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("അളിയാ  ലേശം പഴയകിയിട്ടൂണ്ട് വീണ്ടും ശ്രമിക്കാം🙊",show_alert=True)
                 return
             if int(index) == 1:
                 buttons = data['buttons'][int(index)-1].copy()
@@ -124,7 +124,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("അളിയാ  ലേശം പഴയകിയിട്ടൂണ്ട് വീണ്ടും ശ്രമിക്കാം🙊",show_alert=True)
                 return
             if int(index) == int(data["total"]) - 2:
                 buttons = data['buttons'][int(index)+1].copy()
@@ -153,13 +153,13 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("അളിയാ  ലേശം പഴയകിയിട്ടൂണ്ട് വീണ്ടും ശ്രമിക്കാം🙊",show_alert=True)
                 return
             if int(index) == 1:
                 buttons = data['buttons'][int(index)-1].copy()
                 buttons.append(
                     [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("🗑️", callback_data="close"),
+
                      InlineKeyboardButton("➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
 
@@ -170,7 +170,7 @@ async def cb_handler(bot, update):
                 buttons.append(
                     [InlineKeyboardButton("🔙", callback_data=f"backbot_{int(index)-1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("🗑️", callback_data="close"),
+      
                      InlineKeyboardButton("➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
@@ -214,7 +214,7 @@ async def cb_handler(bot, update):
             file_details_pr0fess0r99 = await get_file_details(file_id)
             settings = await get_settings(update.message.chat.id)
             if not file_details_pr0fess0r99:
-                return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!')
+                return await update.answer('മോനെ എൻ്റെ കയ്യിൽ അതു ഇല്ലാലോ😢')
             files = file_details_pr0fess0r99[0]
             title = files.file_name
             size = get_size(files.file_size)
@@ -242,7 +242,9 @@ async def cb_handler(bot, update):
                 if settings["filemode"]:
                     try:
                         await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons), protect_content=protect_content)
-                        await update.answer("""𝙲𝙷𝙴𝙲𝙺 𝙿𝙼, 𝙸 𝙷𝙰𝚅𝙴 𝚂𝙴𝙽𝚃 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙿𝙼\n𝙲𝙻𝙸𝙲𝙺 𝙲𝙷𝙴𝙲𝙺 𝙿𝙼 𝙱𝚄𝚃𝚃𝙾𝙽""", show_alert=True)   
+                        await update.answer("""ഞാൻ നിറ്റെയ് പിയമ്മിൽ സെൻ്റ് ചെയ്തിട്ട് ഉണ്ട് നോക്ക് പോയി
+
+ജവോ....😉""", show_alert=True)   
                     except Exception as e:
                         await update.message.reply(f"{e}")                  
                         dellogs=await update.message.reply_text(f"""<b>𝙷𝙴𝚈 {update.from_user.mention} 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>{title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size} """, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
@@ -288,7 +290,7 @@ async def cb_handler(bot, update):
                 return
             file_details_pr0fess0r99 = await get_file_details(file_id)
             if not file_details_pr0fess0r99:
-                return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!')
+                return await update.answer('മോനെ എൻ്റെ കയ്യിൽ അതു ഇല്ലാലോ😢')
             files = file_details_pr0fess0r99[0]
             title = files.file_name
             size = get_size(files.file_size)
@@ -305,8 +307,8 @@ async def cb_handler(bot, update):
               
         elif update.data == "start":
             buttons = [[ InlineKeyboardButton("× 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ×", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ],
-                      [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="t.me/Mo_Tech_YT") ],
-                      [ InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"), InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃 🤠", callback_data="about") ]] 
+                      [ InlineKeyboardButton("❄️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ❄️", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("🍃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🍃", url="https://t.me/at3_movies") ],
+                      [ InlineKeyboardButton("💠 𝙷𝙴𝙻𝙿 💠", callback_data="help"), InlineKeyboardButton("⭕️ 𝙰𝙱𝙾𝚄𝚃 ⭕️ ", callback_data="about") ]] 
             await update.message.edit(START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
 
         elif update.data == "help":
@@ -336,9 +338,9 @@ async def cb_handler(bot, update):
                 pass
         elif update.data == "about":
             try:
-                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot")],
+                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://t.me/httpsgithub")],
                       [ InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start"), InlineKeyboardButton("𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴", callback_data="usage"), InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data="close") ]]                     
-                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot"), reply_markup=InlineKeyboardMarkup(buttons))
+                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://t.me/httpsgithub), reply_markup=InlineKeyboardMarkup(buttons))
             except MessageNotModified:
                 pass
         elif update.data == "usage":
