@@ -213,7 +213,7 @@ async def cb_handler(bot, update):
             file_details_pr0fess0r99 = await get_file_details(file_id)
             settings = await get_settings(update.message.chat.id)
             if not file_details_pr0fess0r99:
-                return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!')
+                return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!മോനെ എൻ്റെ കയ്യിൽ അതു ഇല്ലാലോ😢')
             files = file_details_pr0fess0r99[0]
             title = files.file_name
             size = get_size(files.file_size)
