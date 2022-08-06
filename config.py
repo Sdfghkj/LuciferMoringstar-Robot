@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 
 # Creator
-CREATOR_NAME = os.environ.get("CREATOR_NAME", "AFSU")
+CREATOR_NAME = os.environ.get("CREATOR_NAME", "AFSAL")
 CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "AFxSU")
 
 # Account
